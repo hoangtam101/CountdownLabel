@@ -2,6 +2,7 @@ CountdownLabel
 ========================
 
 ![Swift](http://img.shields.io/badge/swift-4.0-brightgreen.svg)
+[![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/CountdownLabel.svg?style=flat)](http://cocoadocs.org/docsets/CountdownLabel)
 
@@ -199,6 +200,20 @@ countdownLabel.morphingEnabled // check morphing is enabled
 - ARC
 
 ##Installation
+
+####Swift Package Manager
+Add the following to your `Package.swift` file:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/suzuki-0000/CountdownLabel.git", from: "4.0.1")
+]
+```
+
+Or in Xcode:
+1. Go to File → Add Package Dependencies
+2. Enter the repository URL: `https://github.com/suzuki-0000/CountdownLabel.git`
+3. Select the version you want to use
 
 ####CocoaPods
 available on CocoaPods. Just add the following to your project Podfile:
