@@ -206,13 +206,13 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/suzuki-0000/CountdownLabel.git", from: "4.0.1")
+    .package(url: "https://github.com/hoangtam101/CountdownLabel.git", from: "4.0.1")
 ]
 ```
 
 Or in Xcode:
 1. Go to File → Add Package Dependencies
-2. Enter the repository URL: `https://github.com/suzuki-0000/CountdownLabel.git`
+2. Enter the repository URL: `https://github.com/hoangtam101/CountdownLabel.git`
 3. Select the version you want to use
 
 ####CocoaPods
